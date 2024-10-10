@@ -2590,6 +2590,7 @@ ul.rounded li::before {
     }
 }
 
+
 @media (max-width: 320px) {
     .side-menu .side-nav .navbar-nav .get-started-btn a {
         font-size: 8px;
@@ -2601,6 +2602,8 @@ ul.rounded li::before {
         margin: 0;
     }
 }
+
+
 
 
 

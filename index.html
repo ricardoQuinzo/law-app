@@ -25,6 +25,27 @@
     <link href="corporate-agency/css/style.css" rel="stylesheet">
 </head>
 
+<style>
+
+.tp-caption h1 {
+    font-size: 2.5vw; /* Ajuste automático basado en el ancho de la pantalla */
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    .tp-caption h1 {
+        font-size: 6vw; /* Tamaño de fuente más grande para pantallas pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .tp-caption h1 {
+        font-size: 7vw; /* Tamaño de fuente más grande para pantallas móviles */
+    }
+}
+
+</style>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="90">
 
 <!-- Loader -->
@@ -73,7 +94,7 @@
     <!--Side Nav-->
     <div class="side-menu hidden">
 
-        <div class="mega-title" id="mega-title"><h2 class="inner-mega-title">Corporate Agency</h2></div>
+        <div class="mega-title" id="mega-title"><h2 class="inner-mega-title">A&A</h2></div>
 
         <span id="btn_sideNavClose">
           <i class="las la-times btn-close"></i>
@@ -122,7 +143,7 @@
     <div class="quote-content hidden animated-modal" id="animatedModal">
         <!--Heading-->
         <div class="pb-md-5 p-0 text-center">
-            <span class="text-pink font-weight-200 font-20">Somos A & A</span>
+            <span class="text-pink font-weight-200 font-20">Somos A&A</span>
             <h2 class="main-font font-weight-600 text-white mt-2">Contactanos</span></h2>
         </div>
         <!--Contact Form-->
@@ -223,7 +244,7 @@
                          data-beforeafter="before"
                          data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
                          data-start="1200" data-splitin="none" data-splitout="none">
-                        <h1 class="text-white main-font font-weight-600 text-capitalize font-40">MÁS SOLUCIONES, MÁS CONFIANZA</h1>
+                        <h1 class="text-white main-font font-weight-600 text-capitalize font-40">MÁS SOLUCIONES <br> MÁS CONFIANZA</h1>
                     </div>
                     <!-- LAYER NR. 3 -->
                     <!-- <div class="tp-caption tp-resizeme"
@@ -250,7 +271,7 @@
                          data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
                          data-start="1000" data-splitin="none" data-splitout="none">
-                        <p class="text-white alt-font font-18">Somos una firma de abogados en la ciudad de Quito. Más allá de asesorar, nuestro objetivo es formar parte de tú equipo.</p>
+                        <p class="text-white alt-font font-18">Somos una firma de abogados en la ciudad de Quito. <br> Más allá de asesorar, nuestro objetivo es <br>  formar parte de tú equipo.</p>
                     </div>
                     <!-- LAYER NR. 5 -->
                     <div class="tp-caption tp-resizeme"
@@ -275,7 +296,7 @@
                          data-textAlign="['center','center','center','center']"
                          data-responsive_offset="on" data-start="1000"
                          data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <h1 class="text-white main-font font-weight-600 font-40">Al ser parte de tu equipo,<br> nos comprometemos en encontrar soluciones eficientes,<br> efectivas y con costos competitivos.</h1>
+                        <h1 class="text-white main-font font-weight-600 font-40">Al ser parte de tu equipo,<br> nos comprometemos en <br> encontrar soluciones <br> eficientes, efectivas y <br> con costos competitivos.</h1>
                     </div>
                     <!-- LAYER NR. 2 -->
                     <!-- <div class="tp-caption tp-resizeme"
@@ -336,7 +357,7 @@
                          data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                          data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                          data-start="900" data-splitin="none" data-splitout="none">
-                        <h1 class="text-white main-font font-weight-600 font-40">Buscamos asesorar, <br> prevenir a nuestros clientes de una forma integral <br> y en distintos campos.</h1>
+                        <h1 class="text-white main-font font-weight-600 font-40">Buscamos asesorar <br> a nuestros clientes <br> de una forma integral <br> en distintos campos.</h1>
                     </div>
                     <!-- LAYER NR. 3 -->
                     <!-- <div class="tp-caption tp-resizeme"
@@ -390,7 +411,7 @@
                          data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
                          data-start="1000" data-splitin="none" data-splitout="none">
-                        <h1 class="text-white main-font font-weight-600 font-40">Parte de nuestro servicio comprende informar <br> constantemente a nuestros clientes. </h1>
+                        <h1 class="text-white main-font font-weight-600 font-40">Parte de nuestro servicio <br> comprende informar <br> constantemente <br> a nuestros clientes. </h1>
                     </div>
                     <!-- LAYER NR. 2 -->
                     <!-- <div class="tp-caption tp-resizeme"
