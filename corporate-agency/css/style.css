@@ -2603,10 +2603,33 @@ ul.rounded li::before {
     }
 }
 
+.custom-logo {
+    width: 200px !important;
+    height: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+}
 
 
 
+/* Para pantallas más pequeñas (mobile y tablet) */
+@media (max-width: 768px) { /* Pantallas de 768px o menos */
+    .custom-logo {
+        width: 200px !important;
+        height: auto !important;
+    }
+}
 
 
+.logo-item-cli img {
+    width: 150px; /* Ajusta este valor según tu preferencia */
+    height: 150px; /* Mantén el mismo valor que el ancho para proporciones cuadradas */
+    object-fit: contain; /* Ajusta la imagen dentro del tamaño definido */
+    display: block; /* Elimina posibles espacios extra alrededor */
+    margin: auto; /* Centra la imagen dentro de su contenedor */
+}
 
+.justificado {
+    text-align: justify;
+}
 
